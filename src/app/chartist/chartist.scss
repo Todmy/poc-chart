@@ -1,0 +1,18 @@
+.chartist-chart {
+  .ct-series-b {
+    .ct-bar {
+      z-index: 999;
+      stroke: none;
+      fill: none;
+    }
+
+    .ct-slice-line {
+      stroke-width: 3px;
+      stroke: black;
+    }
+  }
+
+  .chart {
+    height: 500px;
+  }
+}
