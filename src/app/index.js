@@ -9,7 +9,7 @@ import {HeaderComponent} from './header';
 import {TitleComponent} from './title';
 import {FooterComponent} from './footer';
 
-import {ChartistCopmonent} from './chartist/chartist';
+import {D3Component} from './d3/d3';
 
 @NgModule({
   imports: [
@@ -23,7 +23,7 @@ import {ChartistCopmonent} from './chartist/chartist';
     HeaderComponent,
     TitleComponent,
     FooterComponent,
-    ChartistCopmonent
+    D3Component
   ],
   bootstrap: [RootComponent]
 })
